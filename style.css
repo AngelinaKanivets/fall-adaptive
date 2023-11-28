@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    color: #000;
+    font-family: Jacques Francois Shadow;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-left: 79px;
+    margin-top: 41px;
+}
+
+.school {
+    color: #000;
+    font-family: Josefin Slab;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 46px;
+}
+
+.text {
+    color: #000;
+    font-family: Poor Story;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 97px;
+}
+
+.subscribe {
+    color: #000;
+    font-family: Poly;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+    background: #FA5454;
+    /* padding-top: 30px;
+    padding-bottom: 29px;
+    padding-left: 76px;
+    padding-right: 78px; */
+    padding: 30px 78px 29px 76px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+.subscribe:hover {
+     background: #b83434;
+     color: #fff;
+}
+body{
+    background: linear-gradient(180deg, #F1EA40 0%, #F85656 90.62%);
+    height: 100vh;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+@media(max-width: 768px) {
+    .title {
+        font-size: 55px;
+        line-height: 60px;
+        margin-bottom: 25px;
+    }
+    .text {
+        font-size: 29px;
+        margin-bottom: 20px;
+    }
+    .subscribe{
+        font-size: 22px;
+        padding: 20px 52px 20px 52px;
+    }
+    .logo{
+        font-size: 34px;
+        margin-left: 38px;
+        margin-top: 38px;
+    }
+    .school{
+        font-size: 17px;
+    }
+
+}
+
+@media(max-width: 425px) {
+    .title {
+        font-size: 50px;
+    }
+    .logo {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}
+
